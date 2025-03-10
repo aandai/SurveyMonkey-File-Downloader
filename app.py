@@ -4,8 +4,8 @@ import os
 import urllib.parse
 
 # 🔑 Replace with your actual SurveyMonkey API credentials
-CLIENT_ID = "r6EX9GcCQ4aRiUmls0NFog"
-CLIENT_SECRET = "116153689052712074785608853260600054092"
+CLIENT_ID = "uKcTPUvLQ92OG_niuXgfkQ"
+CLIENT_SECRET = "44702891992229546666261285313930943507"
 REDIRECT_URI = "http://localhost:8501"
 
 # 🔗 Generate OAuth URL with required scopes
@@ -142,3 +142,4 @@ if st.button("📥 Download Selected Files"):
 # 📌 Footer Branding
 st.markdown("---")
 st.markdown("🔹 **Developed by ATG** 🔹", unsafe_allow_html=True)
+
